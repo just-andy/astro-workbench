@@ -11,10 +11,13 @@ $sizes: (
 // Typography
 $large-line-height: 1.1;
 
+// Prose
+$prose-max-width: 48rem;
+
 // Container
 $container-inline-padding: 1rem;
-$container-max-width: 75rem; //960px
-$container-max-width-wide: 75rem; //1200px
+$container-max-width: 75rem; //1200px
+$container-max-width-wide: 90rem; //1440px
 
 $card-body-padding: 8rem;
 
