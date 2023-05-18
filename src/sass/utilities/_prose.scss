@@ -1,0 +1,6 @@
+@use "../abstracts/" as *;
+
+.prose {
+  max-width: $prose-max-width;
+  margin: 0 auto;
+}

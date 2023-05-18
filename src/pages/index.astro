@@ -4,22 +4,53 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Compound Workbench">
-	<header class="bg-neutral-0 padding-24">
-		<h1>Demo</h1>
-	</header>
-  <main class=" container | bg-neutral-0">
+  <header class="bg-neutral-0 padding-24">
+    <h1>Demo</h1>
+  </header>
+  <main class="container | bg-neutral-0">
     <section class="section">
-      <div class="container flow">
-		<h1 class="heading-1">Heading 1</h1>
-		<h2 class="heading-2">Heading 2</h2>
-		<h3 class="heading-3">Heading 3</h3>
-		<h4 class="heading-4">Heading 4</h4>
-		<h5 class="heading-5">Heading 5</h5>
-		<h6 class="heading-6">Heading 6</h6>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi pariatur ratione molestias quod molestiae ut facilis velit animi aliquid accusamus, eaque nesciunt earum repellat ea, odit tenetur minima fuga nobis, corporis impedit doloribus? Fugiat ea pariatur natus dolores nobis ut nesciunt et minima ad deserunt neque odio dignissimos vel distinctio earum enim iusto, at incidunt inventore perferendis. Unde autem, quia quaerat ut sequi error repellendus, officia rem perferendis amet quibusdam necessitatibus itaque perspiciatis earum.</p>
-		<p>Obcaecati minima autem aut possimus sint dolorum architecto quia at magni ipsam dicta, facere repellendus fugiat, inventore aliquam voluptate harum iste tempora vel, exercitationem non aperiam! Sunt officia, nisi rerum laboriosam fugit atque distinctio ut doloribus sit ipsum ex praesentium harum similique sint architecto illum nihil necessitatibus neque eum quia unde placeat dolor? Earum iusto sed nobis harum eaque, enim laboriosam, eveniet quod minus rem atque repellendus voluptates quo architecto cumque cupiditate explicabo qui vitae illum nemo neque doloribus fugiat suscipit iste? </p>
-		<p>Repellat quia quam necessitatibus eligendi ipsa officia, perspiciatis esse atque ducimus corrupti nulla quos expedita aliquam repellendus maxime quidem optio ratione porro aspernatur voluptatem! Voluptas omnis illo nihil eligendi quo optio vero, corporis quos fugiat ipsam vitae quod porro? Omnis alias voluptates consectetur.</p>
-		<Button label="Click Me" style="outline">
+      <div class="container">
+        <div class="prose | flow">
+          <h1 class="heading-1">Heading 1</h1>
+          <h2 class="heading-2">Heading 2</h2>
+          <h3 class="heading-3">Heading 3</h3>
+          <h4 class="heading-4">Heading 4</h4>
+          <h5 class="heading-5">Heading 5</h5>
+          <h6 class="heading-6">Heading 6</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+            pariatur ratione molestias quod molestiae ut facilis velit animi
+            aliquid accusamus, eaque nesciunt earum repellat ea, odit tenetur
+            minima fuga nobis, corporis impedit doloribus? Fugiat ea pariatur
+            natus dolores nobis ut nesciunt et minima ad deserunt neque odio
+            dignissimos vel distinctio earum enim iusto, at incidunt inventore
+            perferendis. Unde autem, quia quaerat ut sequi error repellendus,
+            officia rem perferendis amet quibusdam necessitatibus itaque
+            perspiciatis earum.
+          </p>
+          <p>
+            Obcaecati minima autem aut possimus sint dolorum architecto quia at
+            magni ipsam dicta, facere repellendus fugiat, inventore aliquam
+            voluptate harum iste tempora vel, exercitationem non aperiam! Sunt
+            officia, nisi rerum laboriosam fugit atque distinctio ut doloribus
+            sit ipsum ex praesentium harum similique sint architecto illum nihil
+            necessitatibus neque eum quia unde placeat dolor? Earum iusto sed
+            nobis harum eaque, enim laboriosam, eveniet quod minus rem atque
+            repellendus voluptates quo architecto cumque cupiditate explicabo
+            qui vitae illum nemo neque doloribus fugiat suscipit iste?
+          </p>
+          <p>
+            Repellat quia quam necessitatibus eligendi ipsa officia,
+            perspiciatis esse atque ducimus corrupti nulla quos expedita aliquam
+            repellendus maxime quidem optio ratione porro aspernatur voluptatem!
+            Voluptas omnis illo nihil eligendi quo optio vero, corporis quos
+            fugiat ipsam vitae quod porro? Omnis alias voluptates consectetur.
+          </p>
+          <div class="flex-group | margin-block-start-24">
+            <Button label="Primary" style="primary" />
+            <Button label="Click Me" style="outline" />
+          </div>
+        </div>
       </div>
     </section>
   </main>
