@@ -2,9 +2,10 @@
 
 :root {
   /* Headings */
-  --heading-font-family: #{$ff-accent};
+  --heading-font-family: Times, serif;
   --heading-font-weight: #{$fw-700};
-  --heading-font-color: #{clr(neutral, 80)};
+  --heading-font-color: #{clr(red, 80)};
+  --background-color: #ffdd40;
 }
 
 body {
