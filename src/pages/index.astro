@@ -1,7 +1,11 @@
 ---
 import Button from "../components/Button.astro";
 import Layout from "../layouts/Layout.astro";
+import {MyElement} from '../components/lit/my-element.js';
 ---
+
+
+
 
 <Layout title="Compound Workbench">
   <header class="bg-neutral-0 padding-24">
@@ -17,6 +21,11 @@ import Layout from "../layouts/Layout.astro";
           <h4 class="heading-4">Heading 4</h4>
           <h5 class="heading-5">Heading 5</h5>
           <h6 class="heading-6">Heading 6</h6>
+          
+          <div style="font-family: Comic Sans MS">
+            <MyElement />
+          </div>
+            
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             pariatur ratione molestias quod molestiae ut facilis velit animi
