@@ -1,21 +1,29 @@
 $ff-sans: "Arial", sans-serif;
 $ff-serif: "Times", serif;
-$ff-heading: 'Ubuntu', sans-serif;
+$ff-heading: "Ubuntu", sans-serif;
 
 $ff-base: $ff-sans;
 $ff-accent: $ff-heading;
+
+$display-sizes: (
+  5: clamp(2.5rem, 0.5rem + 10vw, 5rem),
+  4: clamp(2.5rem, 0.5rem + 10vw, 5rem),
+  3: clamp(2.5rem, 0.5rem + 10vw, 5rem),
+  2: clamp(2.5rem, 0.5rem + 10vw, 5rem),
+  1: clamp(2.5rem, 0.5rem + 10vw, 5rem),
+);
 
 $font-sizes: (
   150: clamp(2.5rem, 0.5rem + 10vw, 5rem),
   140: clamp(2.5rem, 0.5rem + 10vw, 5rem),
   130: clamp(2.5rem, 0.5rem + 10vw, 5rem),
   120: clamp(2.5rem, 0.5rem + 10vw, 5rem),
-  110: clamp(2.5rem, 0.5rem + 10vw, 5rem),
+  110: clamp(1.25rem, 0.5rem + 10vw, 2rem),
   100: clamp(2.5rem, 0.5rem + 10vw, 5rem),
   90: clamp(2.5rem, 0.5rem + 10vw, 5rem),
-  80: clamp(2.5rem, 0.5rem + 7vw, 3.75rem),
-  70: clamp(2.5rem, 0.5rem + 5vw, 2.75rem),
-  60: clamp(1.4rem, 0.5rem + 3vw, 1.6875rem),
+  80: 1.75rem,
+  70: 1.5rem,
+  60: 1.25rem,
   50: 1rem,
   40: 0.875rem,
   30: 0.75rem,

@@ -1,0 +1,9 @@
+@use "../abstracts/" as *;
+
+.menu {
+  list-style: none;
+  display: flex;
+  &:li {
+    padding: 1rem 2rem;
+  }
+}

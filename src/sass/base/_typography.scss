@@ -1,0 +1,14 @@
+@use "../abstracts/" as *;
+
+a {
+  color: clr(secondary, 80);
+  text-decoration: underline;
+
+  &:hover {
+    color: clr(secondary, 90);
+  }
+
+  &:active {
+    color: clr(secondary, 70);
+  }
+}

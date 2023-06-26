@@ -1,0 +1,7 @@
+@use "../abstracts" as *;
+
+@each $surface, $value in $surfaces {
+  .surface-#{$surface} {
+    background-color: $value;
+  }
+}
