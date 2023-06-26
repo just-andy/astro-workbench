@@ -1,13 +1,13 @@
 @use "../abstracts/" as *;
 
 %heading {
-    color: clr(neutral, 90);
-    font-weight: $fw-700;
+  font-weight: $fw-500;
+  color: clr(primary, 100);
+  font-family: $ff-heading;
 }
 
-@for $i from 1 through 6 {
-    .heading-#{$i} {
-      font-size: 16px + $heading-scale * (6 - $i);
-    }
-    @debug (($i/16) * 1rem);
+@for $i from 1 to 6 {
+  .heading-#{$i} {
+    @extend %heading;
   }
+}

@@ -1,0 +1,24 @@
+@use "../abstracts/" as *;
+@use "../utilities/shadows" as *;
+
+.navbar {
+  background-color: clr(neutral, 00);
+  color: clr(neutral, 80);
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 100%;
+  @include shadow(1);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+  & li a {
+    padding: 1rem;
+  }
+}
