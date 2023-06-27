@@ -5,14 +5,20 @@ $sizes: (
   24: 1.5rem,
   32: 2rem,
   36: 2.25rem,
-  48: 2.5rem,
+  40: 2.5rem,
+  48: 3rem,
+  56: 3.5rem,
+  64: 4rem,
+  72: 4.5rem,
+  80: 5.5rem,
+  88: 6rem,
 );
 
 // Typography
-$large-line-height: 1.1;
+$large-line-height: 1.25;
 
 // Prose
-$prose-max-width: 48rem;
+$prose-max-width: 48rem; //768px
 
 // Container
 $container-inline-padding: 1rem;
@@ -24,9 +30,12 @@ $card-body-padding: 1rem;
 // Spacing
 $section-spacer: 7rem;
 $grid-gap: 1.5rem;
+$section-padding: clamp(3rem, 10vh, 7rem);
+
+
 $hero-padding: clamp(15rem, 15vh, 20rem);
 $card-body-padding: 2.5rem;
-$section-padding: clamp(3rem, 10vh, 7rem);
+
 
 // Flex
 $flex-group-gap: 1rem;
