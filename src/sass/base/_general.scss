@@ -1,17 +1,10 @@
 @use "../abstracts/" as *;
 
-:root {
-  /* Headings */
-  --heading-font-family: #{$ff-accent};
-  --heading-font-weight: #{$fw-700};
-  --heading-font-color: #{clr(neutral, 80)};
-}
-
 body {
   font-size: fs(50);
   font-weight: $fw-400;
   font-family: $ff-sans;
-  color: clr(neutral, 90);
-  background-color: clr(neutral, 20);
+  color: clr(neutral, 80);
+  background-color: clr(neutral, 00);
   text-align: left;
 }

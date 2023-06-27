@@ -2,5 +2,18 @@
 
 .prose {
   max-width: $prose-max-width;
+  font-size: 1.25rem;
+  line-height: 1.5em;
   margin: 0 auto;
+
+  & ul {
+    margin-left: 1.5rem;
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: clr(primary, 100);
+    font-weight: $fw-500;
+    font-family: $ff-heading;
+  }
 }
+

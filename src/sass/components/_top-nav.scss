@@ -1,0 +1,16 @@
+@use "../abstracts/" as *;
+
+.top-nav {
+    background-color: clr(neutral, 00);
+    padding: 1.5em;
+    display: flex;
+    justify-content:space-between;
+}
+
+.primary-navigation {
+ 
+
+    & li {
+list-style: none;
+    }
+}

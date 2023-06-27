@@ -1,4 +1,6 @@
 ---
+import TopNav from "../components/TopNav.astro"
+
 export interface Props {
   title: string;
 }
@@ -12,21 +14,21 @@ import "../sass/style.scss";
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
-    </style>
-  </head>
-  <body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
     <header class="navbar">
       <h1>Demo</h1>
       <Menu />
     </header>
-    <slot />
-  </body>
+		<slot />
+		<footer class="padding-64 flex-group mx-auto">
+			This is the footer
+		</footer>
+	</body>
 </html>
